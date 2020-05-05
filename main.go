@@ -37,5 +37,5 @@ func main() {
 	http.HandleFunc("/api/special/", handleAPISpecial)
 	http.HandleFunc("/home", handleHome)
 
-	http.ListenAndServe("127.0.0.1:3000", nil)
+	http.ListenAndServe("0.0.0.0:5500", nil)
 }
